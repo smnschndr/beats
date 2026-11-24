@@ -135,7 +135,7 @@ require (
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/yaml.v2 v2.4.0
-	gotest.tools/gotestsum v1.7.0
+	gotest.tools/gotestsum v1.12.0
 	howett.net/plist v1.0.1
 	k8s.io/api v0.35.4
 	k8s.io/apimachinery v0.35.4
@@ -230,17 +230,20 @@ require (
 require (
 	github.com/alexbrainman/sspi v0.0.0-20250919150558-7d374ff0d59e
 	github.com/apache/arrow-go/v18 v18.4.1
+	github.com/apache/plc4x/plc4go v0.0.0-20250824183049-cabd026ac1f0
 	github.com/cilium/ebpf v0.22.0
 	github.com/coder/websocket v1.8.14
 	github.com/elastic/entcollect v0.0.0-20260916061436-646037f10512
 	github.com/elastic/gokrb5/v8 v8.0.0-20251105095404-23cc45e6a102
 	github.com/elastic/lumberjack v0.0.0-20260715013204-c5b60bbeaaab
+	github.com/gopcua/opcua v0.9.1
 	github.com/jimlambrt/gldap v0.1.14
 	github.com/mattn/go-sqlite3 v1.14.32
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.163.0
 	github.com/parsiya/golnk v0.0.0-20251207220015-443df11fe4fb
 	github.com/richardlehane/mscfb v1.0.6
 	github.com/rogpeppe/go-internal v1.14.1
+	github.com/rs/zerolog v1.34.0
 	github.com/twmb/franz-go v1.22.1
 	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78
 	go.opentelemetry.io/collector/client v1.69.0
@@ -280,12 +283,18 @@ require (
 )
 
 require (
+	github.com/IBM/netaddr v1.5.0 // indirect
 	github.com/Masterminds/semver/v3 v3.5.0 // indirect
+	github.com/bitfield/gotestdox v0.2.2 // indirect
 	github.com/brunoscheufler/aws-ecs-metadata-go v0.0.0-20221221133751-67e37ae746cd // indirect
 	github.com/cenkalti/backoff/v7 v7.0.1 // indirect
+	github.com/cstockton/go-conv v1.0.0 // indirect
 	github.com/go-openapi/swag/pools v0.28.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
+	github.com/icza/bitio v1.1.0 // indirect
+	github.com/jacobsa/go-serial v0.0.0-20180131005756-15cf729a72d4 // indirect
+	github.com/libp2p/go-reuseport v0.4.0 // indirect
 	go.opentelemetry.io/contrib/detectors/aws/ecs v1.45.0 // indirect
 	go.opentelemetry.io/contrib/detectors/aws/eks v1.45.0 // indirect
 	go.opentelemetry.io/contrib/detectors/azure/azurevm v0.17.0 // indirect
